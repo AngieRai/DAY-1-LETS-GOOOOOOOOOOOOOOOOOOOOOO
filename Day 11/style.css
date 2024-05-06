@@ -1,0 +1,35 @@
+.title{
+text-align: center;
+color: whitesmoke;
+padding: 50px 200px;
+}
+
+.bg-green{
+    background-color: darkgreen;
+}
+.bg-red{
+    background-color: sienna;
+}
+.bg-blue{
+    background-color: teal;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+button{
+    background-color: whitesmoke;
+    color: black;
+   border-radius: 7.0px;
+   border-style:dotted;
+   border-width: 5.0px;
+   width: 100px;
+   border-color: orange;
+}
+
+h1{
+    background-color: cadetblue;
+    font-size: 50px;
+    font-style: italic;
+   }
