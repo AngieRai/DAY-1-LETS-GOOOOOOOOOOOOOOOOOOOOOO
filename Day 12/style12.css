@@ -1,0 +1,22 @@
+.card{
+border: 20px solid rgba(28, 75, 51, 0.726);
+border-radius: 50px;
+border-style: double;
+padding: 20px;
+background-color: rgb(241, 215, 220);
+}
+
+.stuff{
+    background-color: rgb(235, 158, 158);
+    border: 20px solid rgb(247, 155, 170);
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.image{
+    border: 10px groove rgba(112, 179, 98, 0.5);
+} 
+.idk{
+    border: 10px groove;
+    background-color:tomato;
+}
