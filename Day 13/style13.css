@@ -1,7 +1,8 @@
 .flex {
   display: flex;
   justify-content: space-evenly;
-  gap: 700px;
+  
+  gap: 650px;
 }
 
 .navbar {
@@ -17,7 +18,14 @@
   color: black;
   border: 5px groove gold;
   border-radius: 40px;
+  
 }
+
+.nav-link{
+  display: flex;
+  justify-content: center;
+}
+
 .login a {
   text-decoration: none;
   color: black;
@@ -48,10 +56,18 @@
   padding: 50px;
   font-size: 27px;
 }
+.techcentre{
+  text-align: center;
+  background: brown;
+}
 .btn {
   border-radius: 50px;
   text-align: center;
+  border: 10px groove gold;
   padding: 20px;
+  background: red;
+  color: white;
+  
 }
 .main {
   border: 20px groove gold;

@@ -1,0 +1,75 @@
+/* boilerplate */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    background: rgb(1, 1, 112);
+}
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.topbar {
+  background: rgb(1, 1, 112);
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 15px;
+}
+.CONTACTS a {
+  text-decoration: none;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.btn {
+  color: white;
+  padding: 5px;
+  background: rgb(1, 1, 112);
+  border: 1px double white;
+  border-radius: 5px;
+}
+.mid{
+    background-color: whitesmoke;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    gap: 10PX;
+    
+}
+.logo{
+    text-align: center;
+}
+.search{
+  
+    display: flex;
+   
+}
+.bar{
+    width: 900px;
+    color: rgb(197, 189, 189);
+    padding-left: 8px;
+}
+.btn2 {
+    background: red;
+    color: white;
+    border: none;
+    padding: 3px;
+    
+}
+.ri-search-line{
+    padding: 2PX;
+    border: 0.1px black;
+    background-color: white;
+    padding: 0.1px;
+}
+
+
