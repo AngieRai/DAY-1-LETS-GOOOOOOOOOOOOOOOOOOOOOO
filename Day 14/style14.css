@@ -1,12 +1,13 @@
 /* boilerplate */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+/* Bar 1 */
 
-.top{
-    background: rgb(1, 1, 112);
+.top {
+  background: rgb(1, 1, 112);
 }
 .container {
   padding-left: 50px;
@@ -36,40 +37,92 @@
   border: 1px double white;
   border-radius: 5px;
 }
-.mid{
-    background-color: whitesmoke;
+
+/* Bar 2 */
+
+.mid {
+  background-color: whitesmoke;
 }
-.searchbar{
-    display: flex;
-    align-items: center;
-    gap: 10PX;
-    
+.searchbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
 }
-.logo{
-    text-align: center;
+.logo {
+  text-align: center;
 }
-.search{
-  
-    display: flex;
-   
+.search {
+  display: flex;
 }
-.bar{
-    width: 900px;
-    color: rgb(197, 189, 189);
-    padding-left: 8px;
+.bar {
+  width: 900px;
+  color: rgb(197, 189, 189);
+  padding-left: 8px;
+ 
 }
 .btn2 {
-    background: red;
-    color: white;
-    border: none;
-    padding: 3px;
-    
+  background: red;
+  color: white;
+  border: none;
+  padding: 3px;
 }
-.ri-search-line{
-    padding: 2PX;
-    border: 0.1px black;
-    background-color: white;
-    padding: 0.1px;
+.ri-search-line {
+  padding: 2px;
+  border: 0.1px black;
+  background-color: white;
+  padding: 0.1px;
 }
 
+/* Hero */
 
+.Hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  background-color: rgb(235, 240, 245);
+  padding-bottom: 20px;
+}
+
+.headp{
+  color: rgb(29, 29, 126);
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.paragraph1{
+  font-size: 20px;
+}
+
+.head2 {
+  padding: 40px;
+  padding-left: 0px;
+}
+
+.headjoin{
+  font-size: 30px;
+
+}
+.btnwf{
+  padding-top: 10px;
+
+}
+
+.wbtn{
+  padding: 7px;
+  color: white;
+  background-color: #24aca0;
+  border: none;
+  border-radius: 5px;
+}
+
+.fbtn{
+  padding: 7px;
+  color: white;
+  background-color: rgb(2, 2, 151);
+  border: none;
+  border-radius: 5px;
+}
